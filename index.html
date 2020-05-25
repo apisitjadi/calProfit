@@ -24,7 +24,7 @@
             <img src="./logo.png" style="max-width: 400px;" alt="mamapudong">
         </div>
         <div class="d-flex justify-content-center">
-            <textarea ng-model="data" id="w3mission" rows="10" cols="100"></textarea>
+            <textarea ng-model="data" id="w3mission" rows="5" cols="100"></textarea>
         </div>
         
         <div class="d-flex justify-content-center margin-top-bottom-25">
@@ -32,8 +32,42 @@
         </div>
 
         <div class="d-flex justify-content-center">
-            <div class="alert alert-success" style="font-size: 32px;" role="alert">
-                Your profit is : {{summaryProfit | number : 2}}
+            <div class="alert alert-success" style="font-size: 32px; margin-right: 10px;">
+                Your profit is : {{(summaryProfit-(employee.wagSummary+shopCost.shopCostSummary)) | number : 2}} 
+                <br>
+                <label class="d-flex justify-content-center" style="font-size: 20px;">
+                    calculate from : {{summaryProfit|number}} - ({{employee.wagSummary|number}} + {{shopCost.shopCostSummary|number}})
+                </label>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="alert alert-warning" style="font-size: 24px;">
+                Employee Cost : {{employee.wagSummary | number}}
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div ng-repeat="emp in employee" class="alert alert-warning" style="font-size: 24px;">
+                <div class="d-flex justify-content-center">
+                    {{emp.name}}
+                </div>
+                <input ng-model="emp.wage" ng-bind="bindEmployeeWageChangeValue()" type="number" class="form-control">
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="alert alert-warning" style="font-size: 24px;">
+                Shop Cost : {{shopCost.shopCostSummary | number}}
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div ng-repeat="shc in shopCost" class="alert alert-warning" style="font-size: 24px;">
+                <div class="d-flex justify-content-center">
+                    {{shc.name}}
+                </div>
+                <input ng-model="shc.cost" ng-bind="bindShopCostChangeValue()" type="number" class="form-control">
             </div>
         </div>
 
@@ -43,7 +77,8 @@
                 <th scope="col">#</th>
                 <th scope="col">Product</th>
                 <th scope="col">Quantity</th>
-                <th scope="col">Profit Per Set</th>
+                <th scope="col">Profit per box</th>
+                <th scope="col">Profit per product</th>
               </tr>
             </thead>
             <tbody ng-repeat="dt in data">
@@ -51,7 +86,8 @@
                 <th scope="row">{{$index+1}}</th>
                 <td ng-bind="dt.Name"></td>
                 <td ng-bind="dt.Quantity"></td>
-                <td ng-bind="getProfitFromName(dt.Name, dt.Quantity)"></td>
+                <td ng-bind="getProfitPerBoxFromName(dt.Name)"></td>
+                <td ng-bind="getProfitFromName(dt.Name, dt.Quantity) | number"></td>
               </tr>
             </tbody>
           </table>
@@ -63,11 +99,76 @@
             // define
             $scope.summaryProfit = 0;
             $scope.count = 0;
+            $scope.employee = [
+                {
+                    "name": "เจเจ",
+                    "wage": 400
+                },{
+                    "name": "หมวย",
+                    "wage": 400
+                },{
+                    "name": "เปา",
+                    "wage": 400
+                },{
+                    "name": "ก็อต",
+                    "wage": 400
+                },{
+                    "name": "ตุ๊ด",
+                    "wage": 400
+                },{
+                    "name": "นัด",
+                    "wage": 400
+                },{
+                    "name": "ชัย",
+                    "wage": 400
+                }
+            ];
+
+            $scope.shopCost = [
+                {
+                    "name": "ค่าบ้าน",
+                    "cost": 500
+                },{
+                    "name": "ค่าน้ำ",
+                    "cost": 100
+                },{
+                    "name": "ค่าไฟ",
+                    "cost": 500
+                },{
+                    "name": "ค่าน้ำมัน",
+                    "cost": 400
+                },{
+                    "name": "ค่า Ads",
+                    "cost": 900
+                },{
+                    "name": "อื่นๆ",
+                    "cost": 700
+                }
+            ];
 
             $scope.calculate = function(){
                 $scope.summaryProfit = 0;
                 $scope.data = JSON.parse($scope.data);
                 $scope.data = JSON.parse($scope.data.Data);
+            }
+
+            $scope.bindEmployeeWageChangeValue = function() {
+                var wagSummary = 0;
+                for(var i=0; i<$scope.employee.length; i++) {
+                    wagSummary += $scope.employee[i].wage;                    
+                    console.log(wagSummary);
+                    
+                }
+                $scope.employee.wagSummary = wagSummary;
+            }
+
+            $scope.bindShopCostChangeValue = function() {
+                var shopCostSummary = 0;
+                for(var i=0; i<$scope.shopCost.length; i++) {
+                    shopCostSummary += $scope.shopCost[i].cost;
+                    
+                }
+                $scope.shopCost.shopCostSummary = shopCostSummary;
             }
 
             $scope.getProfitFromName = function(key, quantity){
@@ -79,6 +180,10 @@
                 }
                 
                 return profit;
+            }
+
+            $scope.getProfitPerBoxFromName = function(productName) {
+                return $scope.matchProfit[productName];
             }
 
             $scope.matchProfit = {
