@@ -1,0 +1,187 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+
+        <style>
+            .margin-top-bottom-25 {
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+
+            .margin-top-bottom-50 {
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+        </style>
+
+    </header>
+    <div ng-app="calProfitApp" ng-controller="myCtrl">
+        
+        <div class="d-flex justify-content-center margin-top-bottom-50" style="padding-bottom: -50px;">
+            <img src="./logo.png" style="max-width: 400px;" alt="mamapudong">
+        </div>
+        <div class="d-flex justify-content-center">
+            <textarea ng-model="data" id="w3mission" rows="10" cols="100"></textarea>
+        </div>
+        
+        <div class="d-flex justify-content-center margin-top-bottom-25">
+            <button ng-click="calculate()" type="button" class="btn btn-primary">Calculate</button>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="alert alert-success" style="font-size: 32px;" role="alert">
+                Your profit is : {{summaryProfit | number : 2}}
+            </div>
+        </div>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Product</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Profit Per Set</th>
+              </tr>
+            </thead>
+            <tbody ng-repeat="dt in data">
+              <tr>
+                <th scope="row">{{$index+1}}</th>
+                <td ng-bind="dt.Name"></td>
+                <td ng-bind="dt.Quantity"></td>
+                <td ng-bind="getProfitFromName(dt.Name, dt.Quantity)"></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    
+    <script>
+        var app = angular.module('calProfitApp', []);
+        app.controller('myCtrl', function ($scope) {
+            // define
+            $scope.summaryProfit = 0;
+            $scope.count = 0;
+
+            $scope.calculate = function(){
+                $scope.summaryProfit = 0;
+                $scope.data = JSON.parse($scope.data);
+                $scope.data = JSON.parse($scope.data.Data);
+            }
+
+            $scope.getProfitFromName = function(key, quantity){
+                var profit = $scope.matchProfit[key] * quantity;
+
+                if($scope.count < $scope.data.length){
+                    $scope.summaryProfit = $scope.summaryProfit + profit;
+                    $scope.count++;
+                }
+                
+                return profit;
+            }
+
+            $scope.matchProfit = {
+                "01 Re-หอยแครงลวก": 23,
+                "ยำไข่แมงดา": 23,
+                "แถมหอยนางรม": 23,
+                "กุ้งมังกร": 23,
+                "02 Gf-หอยหวานเผาเนย": 23,
+                "02 Gf-ยำไข่แมงดาเผา": 23,
+                "02 Gf-ปูม้าแกะ": 23,
+                "02 Gf-ปูทะเลไข่ดองไซส์ XS": 23,
+                "02 Gf-กุ้งเผาเนย": 23,
+                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก)  (แถม)": 23,
+                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก) (แถม)": 23,
+                "01 Re-ปูทะเลไข่นึ่งนมสดไซส์ M (แถม)": 23,
+                "01 Re-ปูทะเลไข่ไซส์ L": 23,
+                "01 Re-น้ำพริกไข่ปู": 23,
+                "01 Re-กุ้งเผาเนย (แถม)": 23,
+                "01 Re-กุ้งเผาเนย": 23,
+                "02 Gf-หอยนางรม": 23,
+                "02 Gf-ข้าวสวย": 23,
+                "01 Re-หอยหวานเผาเนย": 23,
+                "01 Re-หอยนางรม": 23,
+                "01 Re-ยำไข่แมงดาเผา": 23,
+                "01 Re-ปูม้าแกะ": 23,
+                "01 Re-ข้าวสวย": 23,
+                "01 Re-ค่าส่ง": 23,
+                "01 Re-กั้งกระดานเผาเนย": 23,
+                "01 Gf-ปูทะเลไข่ดองไซส์ XS": 23,
+                "01 Re - ข้าวสวย": 23,
+                "01 Re - หอยแครงลวก": 23,
+                "01 Re-กั้งกระดานย่างเนย": 23,
+                "01 Re-กั้งดองน้ำปลา": 23,
+                "01 Re-กั้งดองน้ำปลา (คัดไข่)": 23,
+                "01 Re-กั้งดองน้ำปลา (คัดไข่) (แถม)": 23,
+                "01 Re-กั้งดองน้ำปลา (แถม)": 23,
+                "01 Re-กุ้งดองน้ำปลา": 23,
+                "01 Re-กุ้งดองน้ำปลา (แถม)": 23,
+                "01 Re-กุ้งเผา": 23,
+                "01 Re-ค่าส่งนอกเขตพื้นที่": 23,
+                "01 Re-ชุดคู่หูปูกุ้ง": 23,
+                "01 Re-ชุดคู่หูปูกุ้ง": 23,
+                "01 Re-แซลมอนซาซิมิ": 23,
+                "01 Re-แซลมอนดองน้ำปลา": 23,
+                "01 Re-ปูทะเลไข่ดองไซส์ L": 23,
+                "01 Re-ปูทะเลไข่ดองไซส์ M": 23,
+                "01 Re-ปูทะเลไข่ดองไซส์ M (แถม)": 23,
+                "01 Re-ปูทะเลไข่ดองไซส์ S": 23,
+                "01 Re-ปูทะเลไข่ดองไซส์ XL": 23,
+                "01 Re-ปูทะเลไข่ดองไซส์ XS": 23,
+                "01 Re-ปูทะเลไข่ดองไซส์ XS (แถม)": 23,
+                "01 Re-ปูทะเลไข่นึ่งนมสดไซส์ L": 23,
+                "01 Re-ปูทะเลไข่นึ่งนมสดไซส์ M": 23,
+                "01 Re-ปูทะเลไข่นึ่งนมสดไซส์ S": 23,
+                "01 Re-ปูม้าแกะ (แถม)": 23,
+                "01 Re-ปูม้าไข่ดอง (ไซส์กลาง)": 23,
+                "01 Re-ปูม้าไข่ดอง (ไซส์กลาง) (แถม)": 23,
+                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก)": 23,
+                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก) (แถม)": 23,
+                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก-คัดไข่แก่)": 23,
+                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก-คัดไข่แก่) (แถม)": 23,
+                "01 Re-ปูม้าไข่ดอง (ไซส์ใหญ่)": 23,
+                "01 Re-ปูม้าไข่ดอง (ไซส์ใหญ่) (แถม)": 23,
+                "01 Re-หมึกไข่ต้มหวาน": 23,
+                "01 Re-หมึกไข่ต้มหวาน (แถม)": 23,
+                "01 Re-หมึกไข่ทอด": 23,
+                "01 Re-หอยหวานเผา": 23,
+                "02 Gf-กั้งกระดานเผาเนย": 23,
+                "02 Gf-กั้งดองน้ำปลา": 23,
+                "02 Gf-กั้งดองน้ำปลา (คัดไข่)": 23,
+                "02 Gf-กุ้งดองน้ำปลา": 23,
+                "02 Gf-กุ้งเผา": 23,
+                "02 Gf-แซลมอนซาซิมิ": 23,
+                "02 Gf-แซลมอนดองน้ำปลา": 23,
+                "02 Gf-ปูทะเลไข่ดองไซส์ L": 23,
+                "02 Gf-ปูทะเลไข่ดองไซส์ M": 23,
+                "02 Gf-ปูทะเลไข่ดองไซส์ S": 23,
+                "02 Gf-ปูม้าไข่ดอง (ไซส์กลาง)": 23,
+                "02 Gf-ปูม้าไข่ดอง (ไซส์เล็ก)": 23,
+                "02 Gf-ปูม้าไข่ดอง (ไซส์เล็ก-คัดไข่แก่)": 23,
+                "02 Gf-ปูม้าไข่ดอง (ไซส์ใหญ่)": 23,
+                "02 Gf-หมึกไข่ต้มหวาน": 23,
+                "02 Gf-หมึกไข่ทอด": 23,
+                "Gf - 01 ปูม้าแกะ": 23,
+                "Re - 01 ปูม้าแกะ": 23,
+                "กล่องโฟมเล็ก": 23,
+                "กั้งทอด": 23,
+                "กุ้งดอง": 23,
+                "กุ้งนึ่ง": 23,
+                "กุ้งแม่น้ำย่าง": 23,
+                "กุ้งสด": 23,
+                "ค่าส่ง": 23,
+                "ค่าส่ง Inter Express": 23,
+                "ค่าส่งนอกเขตพื้นที่ให้บริการ": 23,
+                "น้ำจิ้ม": 23,
+                "น้ำจิ้ม (กระปุก)": 23,
+                "น้ำจิ้ม (ขวด) 150 CC": 23,
+                "น้ำดอง": 23,
+                "ปูไข่ดอง xs": 23,
+                "ปูม้าแกะ": 23,
+                "ปูม้าดองใหญ่": 23,
+                "หมึกไข่ทอด": 23
+            };
+        });
+    </script>
+</html>
