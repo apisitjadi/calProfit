@@ -155,9 +155,7 @@
             $scope.bindEmployeeWageChangeValue = function() {
                 var wagSummary = 0;
                 for(var i=0; i<$scope.employee.length; i++) {
-                    wagSummary += $scope.employee[i].wage;                    
-                    console.log(wagSummary);
-                    
+                    wagSummary += $scope.employee[i].wage;
                 }
                 $scope.employee.wagSummary = wagSummary;
             }
