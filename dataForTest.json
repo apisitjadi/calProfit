@@ -1,9 +1,563 @@
-{
-    "ok": true,
-    "message": "ค้นหาสำเร็จ",
-    "Data": "[{\"id\":\"13241470\",\"Name\":\"01 Re-กั้งกระดานเผาเนย\",\"Value\":350.00000000,\"VATValue\":0.0,\"Quantity\":1.0,\"UnitPrice\":350.00,\"Documents\":[{\"Contact\":{\"Name\":\"Say Pan\u0027n (เดอะกราซ)\",\"id\":0,\"Id\":6561892},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037289\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055428\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":13241470,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855630\",\"Name\":\"01 Re-กั้งดองน้ำปลา\",\"Value\":795.00000000,\"VATValue\":0.0,\"Quantity\":5.00,\"UnitPrice\":159.00,\"Documents\":[{\"Contact\":{\"Name\":\"เนย (หนองเกตุ)\",\"id\":0,\"Id\":8607032},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":318.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037255\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12051579\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":318.0000,\"Quantity\":2.00,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"อ้อ(ห้วยใหญ่-ตรงข้ามCJ)\",\"id\":0,\"Id\":8607824},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037260\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12052879\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Monnapa Khakhai(กรมที่ดินซอย4)\",\"id\":0,\"Id\":8596962},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037280\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054795\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Arethitiya(กอไผ่ 9)\",\"id\":0,\"Id\":3639545},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037287\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055192\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855630,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855626\",\"Name\":\"01 Re-กุ้งดองน้ำปลา\",\"Value\":1749.00000000,\"VATValue\":0.0,\"Quantity\":11.00,\"UnitPrice\":159.00,\"Documents\":[{\"Contact\":{\"Name\":\"ลูกหมู ตัวเล็ก เล็ก(พัทยาใต้)\",\"id\":0,\"Id\":8606126},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":318.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037253\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12049921\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":318.0000,\"Quantity\":2.00,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"บิ๊ว (เขาตาโล)\",\"id\":0,\"Id\":8607462},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037257\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12052266\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Phenphisut Rinthongma(ทัพยา 9)\",\"id\":0,\"Id\":8478928},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037262\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053222\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"(รับที่ร้าน)\",\"id\":0,\"Id\":5333080},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037263\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053346\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"ไอซ์(ทุ่่งกลม-ตาลหมัน 4)\",\"id\":0,\"Id\":8609029},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037272\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054369\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"kwang chanisa(เนินพลับหวาน)\",\"id\":0,\"Id\":8609145},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037276\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054584\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Monnapa Khakhai(กรมที่ดินซอย4)\",\"id\":0,\"Id\":8596962},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037280\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054795\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"เบ๊น(นาเกลือ)\",\"id\":0,\"Id\":7666706},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037281\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054878\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Marc Anthony (พัทยากลาง)\",\"id\":0,\"Id\":8563754},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037286\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055141\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Arethitiya(กอไผ่ 9)\",\"id\":0,\"Id\":3639545},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":159.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037287\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055192\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":159.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855626,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"13138076\",\"Name\":\"01 Re-กุ้งเผา\",\"Value\":717.00000000,\"VATValue\":0.0,\"Quantity\":3.0,\"UnitPrice\":239.00,\"Documents\":[{\"Contact\":{\"Name\":\"Pemika Buaprasert(พัทยาใต้)\",\"id\":0,\"Id\":8606745},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":239.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037254\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12051019\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":239.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"อ้อ(ห้วยใหญ่-ตรงข้ามCJ)\",\"id\":0,\"Id\":8607824},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":239.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037260\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12052879\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":239.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"เจน(ห้วยใหญ่)\",\"id\":0,\"Id\":4050353},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":239.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037273\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054455\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":239.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":13138076,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"12881204\",\"Name\":\"01 Re-ข้าวสวย\",\"Value\":76.00000000,\"VATValue\":0.0,\"Quantity\":4.00,\"UnitPrice\":19.00,\"Documents\":[{\"Contact\":{\"Name\":\"Lalita(เฉลิมพระเกียรติ 21)\",\"id\":0,\"Id\":8608696},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":38.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037267\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053922\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":38.0000,\"Quantity\":2.00,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Marc Anthony (พัทยากลาง)\",\"id\":0,\"Id\":8563754},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":19.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037286\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055141\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":19.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"แคท(พัทยาใต้-รุ้งแลนด์)\",\"id\":0,\"Id\":8610146},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":19.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037292\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055973\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":19.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":12881204,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855644\",\"Name\":\"01 Re-ค่าส่ง\",\"Value\":150.00000000,\"VATValue\":0.0,\"Quantity\":5.0,\"UnitPrice\":30.00,\"Documents\":[{\"Contact\":{\"Name\":\"Pattaya Trader(จอมเทียน)\",\"id\":0,\"Id\":8607372},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":30.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037256\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12052159\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":30.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Pimmy Kanthicharat (เขามะกอก ๑๐)\",\"id\":0,\"Id\":8608317},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":30.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037265\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053520\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":30.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"เจน(ห้วยใหญ่)\",\"id\":0,\"Id\":4050353},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":30.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037273\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054455\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":30.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Nuumwann(พระตำหนักซอย 4)\",\"id\":0,\"Id\":8609093},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":30.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037274\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054505\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":30.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Thitisan Phoonsaeng( โรงโป๊ะ​ )\",\"id\":0,\"Id\":8610029},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":30.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037291\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055790\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":30.0,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855644,\"UnitName\":\"รอบ\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855586\",\"Name\":\"01 Re-ปูทะเลไข่ดองไซส์ L\",\"Value\":6600.00000000,\"VATValue\":0.0,\"Quantity\":12.00,\"UnitPrice\":550.00,\"Documents\":[{\"Contact\":{\"Name\":\"ลูกหมู ตัวเล็ก เล็ก(พัทยาใต้)\",\"id\":0,\"Id\":8606126},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":1100.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037253\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12049921\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":1100.0000,\"Quantity\":2.00,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Pattaya Trader(จอมเทียน)\",\"id\":0,\"Id\":8607372},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":1100.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037256\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12052159\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":1100.0000,\"Quantity\":2.00,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"วรา(ลุมพินีวงอมาต)\",\"id\":0,\"Id\":8203688},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":550.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037261\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053082\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":550.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Phenphisut Rinthongma(ทัพยา 9)\",\"id\":0,\"Id\":8478928},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":550.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037262\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053222\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":550.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Lalita(เฉลิมพระเกียรติ 21)\",\"id\":0,\"Id\":8608696},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":550.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037267\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053922\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":550.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"ติน(เดอะทรัสพัทยาใต้)\",\"id\":0,\"Id\":8609131},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":1100.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037275\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054563\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":1100.0000,\"Quantity\":2.00,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"kwang chanisa(เนินพลับหวาน)\",\"id\":0,\"Id\":8609145},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":550.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037276\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054584\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":550.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"ทิพย์(พัทยาใต้-รพ.สัตว์)\",\"id\":0,\"Id\":8609383},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":550.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037282\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054984\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":550.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Say Pan\u0027n (เดอะกราซ)\",\"id\":0,\"Id\":6561892},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":550.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037289\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055428\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":550.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855586,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855590\",\"Name\":\"01 Re-ปูทะเลไข่ดองไซส์ XL\",\"Value\":350.00000000,\"VATValue\":0.0,\"Quantity\":1.0,\"UnitPrice\":350.00,\"Documents\":[{\"Contact\":{\"Name\":\"อ้อ(ห้วยใหญ่-ตรงข้ามCJ)\",\"id\":0,\"Id\":8607824},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037260\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12052879\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855590,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"12916436\",\"Name\":\"01 Re-ปูม้าแกะ\",\"Value\":1750.00000000,\"VATValue\":0.0,\"Quantity\":5.0,\"UnitPrice\":350.00,\"Documents\":[{\"Contact\":{\"Name\":\"Pemika Buaprasert(พัทยาใต้)\",\"id\":0,\"Id\":8606745},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037254\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12051019\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"ชื่อ รุ้ง(ทุ่งกลม3)\",\"id\":0,\"Id\":8030910},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037268\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053940\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"ติน(เดอะทรัสพัทยาใต้)\",\"id\":0,\"Id\":8609131},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037275\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054563\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"ศรัณญา(นาเกลือ 15/1)\",\"id\":0,\"Id\":8549817},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037283\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055008\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"แคท(พัทยาใต้-รุ้งแลนด์)\",\"id\":0,\"Id\":8610146},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037292\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055973\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":12916436,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855610\",\"Name\":\"01 Re-ปูม้าไข่ดอง (ไซส์เล็ก)\",\"Value\":995.00000000,\"VATValue\":0.0,\"Quantity\":5.0,\"UnitPrice\":199.00,\"Documents\":[{\"Contact\":{\"Name\":\"บิ๊ว (เขาตาโล)\",\"id\":0,\"Id\":8607462},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":199.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037257\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12052266\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":199.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Phenphisut Rinthongma(ทัพยา 9)\",\"id\":0,\"Id\":8478928},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":199.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037262\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053222\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":199.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"ไอซ์(ทุ่่งกลม-ตาลหมัน 4)\",\"id\":0,\"Id\":8609029},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":199.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037272\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054369\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":199.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Nuumwann(พระตำหนักซอย 4)\",\"id\":0,\"Id\":8609093},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":199.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037274\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054505\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":199.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"kwang chanisa(เนินพลับหวาน)\",\"id\":0,\"Id\":8609145},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":199.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037276\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054584\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":199.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855610,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855616\",\"Name\":\"01 Re-ปูม้าไข่ดอง (ไซส์เล็ก-คัดไข่แก่)\",\"Value\":1434.00000000,\"VATValue\":0.0,\"Quantity\":6.00,\"UnitPrice\":239.00,\"Documents\":[{\"Contact\":{\"Name\":\"เนย (หนองเกตุ)\",\"id\":0,\"Id\":8607032},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":478.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037255\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12051579\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":478.0000,\"Quantity\":2.00,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"kwang chanisa(เนินพลับหวาน)\",\"id\":0,\"Id\":8609145},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":239.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037276\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054584\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":239.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Monnapa Khakhai(กรมที่ดินซอย4)\",\"id\":0,\"Id\":8596962},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":239.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037280\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054795\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":239.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"เบ๊น(นาเกลือ)\",\"id\":0,\"Id\":7666706},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":239.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037281\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054878\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":239.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Thanaphat Chanin(ซอยบ้านล่าง 12)\",\"id\":0,\"Id\":8609990},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":239.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037290\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055724\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":239.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855616,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"13414803\",\"Name\":\"01 Re-ยำไข่แมงดาเผา\",\"Value\":1750.00000000,\"VATValue\":0.0,\"Quantity\":5.0,\"UnitPrice\":350.00,\"Documents\":[{\"Contact\":{\"Name\":\"Pemika Buaprasert(พัทยาใต้)\",\"id\":0,\"Id\":8606745},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037254\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12051019\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Ann Malirum(เขาตาโล)\",\"id\":0,\"Id\":7443499},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037264\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053405\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Pimmy Kanthicharat (เขามะกอก ๑๐)\",\"id\":0,\"Id\":8608317},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037265\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053520\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Nuumwann(พระตำหนักซอย 4)\",\"id\":0,\"Id\":8609093},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037274\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054505\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Jub Chotika (ผู้ใหญ่กุ่ย)\",\"id\":0,\"Id\":5871757},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037285\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055026\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.0,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":13414803,\"UnitName\":\"ตัว\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"13007316\",\"Name\":\"01 Re-หมึกไข่ต้มหวาน\",\"Value\":897.00000000,\"VATValue\":0.0,\"Quantity\":3.0,\"UnitPrice\":299.00,\"Documents\":[{\"Contact\":{\"Name\":\"Pemika Buaprasert(พัทยาใต้)\",\"id\":0,\"Id\":8606745},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":299.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037254\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12051019\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":299.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"ไอซ์(ทุ่่งกลม-ตาลหมัน 4)\",\"id\":0,\"Id\":8609029},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":299.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037272\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054369\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":299.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Thitisan Phoonsaeng( โรงโป๊ะ​ )\",\"id\":0,\"Id\":8610029},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":299.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037291\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055790\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":299.0,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":13007316,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"13064968\",\"Name\":\"01 Re-หมึกไข่ทอด\",\"Value\":350.00000000,\"VATValue\":0.0,\"Quantity\":1.0,\"UnitPrice\":350.0,\"Documents\":[{\"Contact\":{\"Name\":\"Thitisan Phoonsaeng( โรงโป๊ะ​ )\",\"id\":0,\"Id\":8610029},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037291\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055790\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.0,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":13064968,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"13587687\",\"Name\":\"01 Re-หอยนางรม\",\"Value\":5400.00000000,\"VATValue\":0.0,\"Quantity\":12.00,\"UnitPrice\":450.00,\"Documents\":[{\"Contact\":{\"Name\":\"ลูกหมู ตัวเล็ก เล็ก(พัทยาใต้)\",\"id\":0,\"Id\":8606126},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":450.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037253\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12049921\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":450.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"เนย (หนองเกตุ)\",\"id\":0,\"Id\":8607032},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":450.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037255\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12051579\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":450.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Sarinya (เทพประสิทธิ์)\",\"id\":0,\"Id\":6067556},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":450.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037258\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12052684\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":450.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Pimmy Kanthicharat (เขามะกอก ๑๐)\",\"id\":0,\"Id\":8608317},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":450.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037265\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053520\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":450.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Yutthasak Phaeng (มาบตาโต้)\",\"id\":0,\"Id\":8608441},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":450.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037266\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053658\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":450.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Lalita(เฉลิมพระเกียรติ 21)\",\"id\":0,\"Id\":8608696},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":450.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037267\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12053922\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":450.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Kotchakorn W. Kuykaew(หนองหินซอย 3)\",\"id\":0,\"Id\":8411452},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":450.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037270\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054070\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":450.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Nueng Ruethai(โพธิสาร4)\",\"id\":0,\"Id\":8157912},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":900.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037278\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054611\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":900.0000,\"Quantity\":2.00,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"ศรัณญา(นาเกลือ 15/1)\",\"id\":0,\"Id\":8549817},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":450.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037283\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055008\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":450.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Jub Chotika (ผู้ใหญ่กุ่ย)\",\"id\":0,\"Id\":5871757},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":450.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037285\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055026\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":450.0,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Say Pan\u0027n (เดอะกราซ)\",\"id\":0,\"Id\":6561892},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":450.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037289\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055428\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":450.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":13587687,\"UnitName\":null,\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"13241473\",\"Name\":\"01 Re-หอยหวานเผาเนย\",\"Value\":1050.00000000,\"VATValue\":0.0,\"Quantity\":3.0,\"UnitPrice\":350.00,\"Documents\":[{\"Contact\":{\"Name\":\"เจน(ห้วยใหญ่)\",\"id\":0,\"Id\":4050353},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037273\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054455\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"ติน(เดอะทรัสพัทยาใต้)\",\"id\":0,\"Id\":8609131},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037275\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054563\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Say Pan\u0027n (เดอะกราซ)\",\"id\":0,\"Id\":6561892},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037289\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055428\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":13241473,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855629\",\"Name\":\"02 Gf-กุ้งดองน้ำปลา\",\"Value\":209.00000000,\"VATValue\":0.0,\"Quantity\":1.0,\"UnitPrice\":209.00,\"Documents\":[{\"Contact\":{\"Name\":\"Grab\",\"id\":0,\"Id\":5900847},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":209.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037288\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055403\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":209.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855629,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"13212193\",\"Name\":\"02 Gf-กุ้งเผา\",\"Value\":700.00000000,\"VATValue\":0.0,\"Quantity\":2.0,\"UnitPrice\":350.00,\"Documents\":[{\"Contact\":{\"Name\":\"Grab\",\"id\":0,\"Id\":5900847},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037271\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054196\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Grab\",\"id\":0,\"Id\":5900847},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":350.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037288\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12055403\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":350.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":13212193,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"13525236\",\"Name\":\"02 Gf-ข้าวสวย\",\"Value\":30.00000000,\"VATValue\":0.0,\"Quantity\":1.00,\"UnitPrice\":30.00,\"Documents\":[{\"Contact\":{\"Name\":\"Grab\",\"id\":0,\"Id\":5900847},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":30.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037271\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054196\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":30.0000,\"Quantity\":1.00,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":13525236,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855606\",\"Name\":\"02 Gf-ปูทะเลไข่ดองไซส์ L\",\"Value\":715.00000000,\"VATValue\":0.0,\"Quantity\":1.0,\"UnitPrice\":715.00,\"Documents\":[{\"Contact\":{\"Name\":\"Grab\",\"id\":0,\"Id\":5900847},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":715.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037271\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054196\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":715.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855606,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855625\",\"Name\":\"02 Gf-ปูม้าไข่ดอง (ไซส์เล็ก-คัดไข่แก่)\",\"Value\":618.00000000,\"VATValue\":0.0,\"Quantity\":2.0,\"UnitPrice\":309.00,\"Documents\":[{\"Contact\":{\"Name\":\"Grab\",\"id\":0,\"Id\":5900847},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":309.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037269\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054004\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":309.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false},{\"Contact\":{\"Name\":\"Grab\",\"id\":0,\"Id\":5900847},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":309.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037277\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054589\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":309.00,\"Quantity\":1.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855625,\"UnitName\":\"กล่อง\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"13669346\",\"Name\":\"02 Gf-หอยนางรม\",\"Value\":1380.00000000,\"VATValue\":0.0,\"Quantity\":2.0,\"UnitPrice\":690.00,\"Documents\":[{\"Contact\":{\"Name\":\"Grab\",\"id\":0,\"Id\":5900847},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":1380.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037271\",\"Status\":\"Awaiting\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054196\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":1380.00,\"Quantity\":2.0,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":13669346,\"UnitName\":\"ชุด\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0},{\"id\":\"8855642\",\"Name\":\"น้ำจิ้ม (กระปุก)\",\"Value\":90.00000000,\"VATValue\":0.0,\"Quantity\":3.00,\"UnitPrice\":30.00,\"Documents\":[{\"Contact\":{\"Name\":\"Grab\",\"id\":0,\"Id\":5900847},\"Name\":null,\"Date\":\"\\/Date(1590278400000)\\/\",\"Value\":90.00000000,\"WithHeld\":0.0,\"DocumentSerial\":\"INV037279\",\"Status\":\"Paid\",\"PublishedOn\":\"\\/Date(-62135596800000)\\/\",\"id\":\"12054739\",\"VATValue\":0.0,\"ValueExcludeVat\":0.0,\"TotalProductDiscount\":0.00000000,\"UnitPrice\":90.0000,\"Quantity\":3.00,\"DocumentType\":null,\"IsForeignCurrency\":false}],\"Date\":\"\\/Date(-62135596800000)\\/\",\"Id\":8855642,\"UnitName\":\"กระปุก\",\"TotalProductDiscount\":0.0,\"InlineDiscountSum\":0.0,\"DiscountPerItem\":0.0,\"ProductDiscountTypes\":0}]",
-    "Total": 38,
-    "TotalValue": 28155.00000000,
-    "TotalVAT": 0,
-    "MaxJsonLength": 2147483647
-}
+[
+    {
+        "id": "8855630",
+        "Name": "01 Re-กั้งดองน้ำปลา",
+        "Value": 159.00000000,
+        "VATValue": 0.0,
+        "Quantity": 1.0,
+        "UnitPrice": 159.00,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "Ying Jeeranunn(รับที่ร้าน)",
+                    "id": 0,
+                    "Id": 8651268
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 159.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037678",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12209133",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 159.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 8855630,
+        "UnitName": "กล่อง",
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    },
+    {
+        "id": "13478518",
+        "Name": "01 Re-กุ้งเผาเนย",
+        "Value": 399.00000000,
+        "VATValue": 0.0,
+        "Quantity": 1.0,
+        "UnitPrice": 399.00,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "Mona Essadouki(จอมเทียน)",
+                    "id": 0,
+                    "Id": 8714891
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 399.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037680",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12210270",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 399.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 13478518,
+        "UnitName": "กล่อง",
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    },
+    {
+        "id": "8855644",
+        "Name": "01 Re-ค่าส่ง",
+        "Value": 60.00000000,
+        "VATValue": 0.0,
+        "Quantity": 2.0,
+        "UnitPrice": 30.00,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "ปอนด์ (จอมเทียน)",
+                    "id": 0,
+                    "Id": 8690466
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 30.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037679",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12210149",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 30.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            },
+            {
+                "Contact": {
+                    "Name": "Mona Essadouki(จอมเทียน)",
+                    "id": 0,
+                    "Id": 8714891
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 30.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037680",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12210270",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 30.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 8855644,
+        "UnitName": "รอบ",
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    },
+    {
+        "id": "9932268",
+        "Name": "01 Re-แซลมอนซาซิมิ",
+        "Value": 897.00000000,
+        "VATValue": 0.0,
+        "Quantity": 3.00,
+        "UnitPrice": 299.00,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "Atchara Foosapniran (โรงโป๊ะ)",
+                    "id": 0,
+                    "Id": 8457939
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 598.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037674",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12208380",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 598.0000,
+                "Quantity": 2.00,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            },
+            {
+                "Contact": {
+                    "Name": "Watchara Booneim (สุทธาวาส)",
+                    "id": 0,
+                    "Id": 7057846
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 299.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037682",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12211508",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 299.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 9932268,
+        "UnitName": "กล่อง",
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    },
+    {
+        "id": "8855582",
+        "Name": "01 Re-ปูทะเลไข่ดองไซส์ S",
+        "Value": 700.00000000,
+        "VATValue": 0.0,
+        "Quantity": 2.0,
+        "UnitPrice": 350.0,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "Emily jiranan(เขาตาโล)",
+                    "id": 0,
+                    "Id": 5014110
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 350.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037675",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12208481",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 350.0,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            },
+            {
+                "Contact": {
+                    "Name": "Freeplay Tomzaa(สายสาม)",
+                    "id": 0,
+                    "Id": 8182306
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 350.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037676",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12208750",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 350.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 8855582,
+        "UnitName": "กล่อง",
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    },
+    {
+        "id": "12916436",
+        "Name": "01 Re-ปูม้าแกะ",
+        "Value": 1050.00000000,
+        "VATValue": 0.0,
+        "Quantity": 3.0,
+        "UnitPrice": 350.00,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "Atchara Foosapniran (โรงโป๊ะ)",
+                    "id": 0,
+                    "Id": 8457939
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 350.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037674",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12208380",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 350.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            },
+            {
+                "Contact": {
+                    "Name": "Ttum NewGen(หนองใหญ่ 12)",
+                    "id": 0,
+                    "Id": 8706817
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 350.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037677",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12208978",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 350.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            },
+            {
+                "Contact": {
+                    "Name": "ปอนด์ (จอมเทียน)",
+                    "id": 0,
+                    "Id": 8690466
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 350.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037679",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12210149",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 350.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 12916436,
+        "UnitName": "กล่อง",
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    },
+    {
+        "id": "13587687",
+        "Name": "01 Re-หอยนางรม",
+        "Value": 900.00000000,
+        "VATValue": 0.0,
+        "Quantity": 2.0,
+        "UnitPrice": 450.0,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "Emily jiranan(เขาตาโล)",
+                    "id": 0,
+                    "Id": 5014110
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 450.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037675",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12208481",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 450.0,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            },
+            {
+                "Contact": {
+                    "Name": "Ying Jeeranunn(รับที่ร้าน)",
+                    "id": 0,
+                    "Id": 8651268
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 450.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037678",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12209133",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 450.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 13587687,
+        "UnitName": "ชุด",
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    },
+    {
+        "id": "9932274",
+        "Name": "02 Gf-แซลมอนซาซิมิ",
+        "Value": 399.00000000,
+        "VATValue": 0.0,
+        "Quantity": 1.0,
+        "UnitPrice": 399.00,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "Grab",
+                    "id": 0,
+                    "Id": 5900847
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 399.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037681",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12210599",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 399.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 9932274,
+        "UnitName": "กล่อง",
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    },
+    {
+        "id": "8855604",
+        "Name": "02 Gf-ปูทะเลไข่ดองไซส์ S",
+        "Value": 455.00000000,
+        "VATValue": 0.0,
+        "Quantity": 1.0,
+        "UnitPrice": 455.00,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "Grab",
+                    "id": 0,
+                    "Id": 5900847
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 455.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037681",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12210599",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 455.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 8855604,
+        "UnitName": "กล่อง",
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    },
+    {
+        "id": "8855622",
+        "Name": "02 Gf-ปูม้าไข่ดอง (ไซส์เล็ก)",
+        "Value": 259.00000000,
+        "VATValue": 0.0,
+        "Quantity": 1.0,
+        "UnitPrice": 259.00,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "Grab",
+                    "id": 0,
+                    "Id": 5900847
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 259.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037681",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12210599",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 259.00,
+                "Quantity": 1.0,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 8855622,
+        "UnitName": "กล่อง",
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    },
+    {
+        "id": "13909034",
+        "Name": "หอยนางรม",
+        "Value": 160.00000000,
+        "VATValue": 0.0,
+        "Quantity": 2.00,
+        "UnitPrice": 80.00,
+        "Documents": [
+            {
+                "Contact": {
+                    "Name": "Ying Jeeranunn(รับที่ร้าน)",
+                    "id": 0,
+                    "Id": 8651268
+                },
+                "Name": null,
+                "Date": "/Date(1591142400000)/",
+                "Value": 160.00000000,
+                "WithHeld": 0.0,
+                "DocumentSerial": "INV037678",
+                "Status": "Awaiting",
+                "PublishedOn": "/Date(-62135596800000)/",
+                "id": "12209133",
+                "VATValue": 0.0,
+                "ValueExcludeVat": 0.0,
+                "TotalProductDiscount": 0.00000000,
+                "UnitPrice": 160.0000,
+                "Quantity": 2.00,
+                "DocumentType": null,
+                "IsForeignCurrency": false
+            }
+        ],
+        "Date": "/Date(-62135596800000)/",
+        "Id": 13909034,
+        "UnitName": null,
+        "TotalProductDiscount": 0.0,
+        "InlineDiscountSum": 0.0,
+        "DiscountPerItem": 0.0,
+        "ProductDiscountTypes": 0
+    }
+]

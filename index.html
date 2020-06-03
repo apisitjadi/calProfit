@@ -15,6 +15,10 @@
                 margin-top: 50px;
                 margin-bottom: 50px;
             }
+
+            .font-red {
+                color: red;
+            }
         </style>
 
     </header>
@@ -33,14 +37,19 @@
 
         <div class="d-flex justify-content-center">
             <div class="alert alert-success" style="font-size: 32px; margin-right: 10px;">
-                Your profit is : {{(summaryProfit-(employee.wagSummary+shopCost.shopCostSummary)) | number : 2}} 
+                Your profit is : {{(summaryProfit-(employee.wagSummary+shopCost.shopCostSummary)) | number}} 
                 <br>
                 <label class="d-flex justify-content-center" style="font-size: 20px;">
-                    calculate from : {{summaryProfit|number}} - ({{employee.wagSummary|number}} + {{shopCost.shopCostSummary|number}})
+                    All profit : {{summaryProfit|number}}
+                    <br>
+                    All fixed cost : {{(employee.wagSummary + shopCost.shopCostSummary)|number}} ({{employee.wagSummary|number}} + {{shopCost.shopCostSummary|number}})
+                    <br>
+                    Calculate from : {{summaryProfit|number}} - {{(employee.wagSummary + shopCost.shopCostSummary) | number}}
                 </label>
             </div>
         </div>
 
+        <!-- Employee -->
         <div class="d-flex justify-content-center">
             <div class="alert alert-warning" style="font-size: 24px;">
                 Employee Cost : {{employee.wagSummary | number}}
@@ -56,6 +65,7 @@
             </div>
         </div>
 
+        <!-- Shop Cost -->
         <div class="d-flex justify-content-center">
             <div class="alert alert-warning" style="font-size: 24px;">
                 Shop Cost : {{shopCost.shopCostSummary | number}}
@@ -71,6 +81,7 @@
             </div>
         </div>
 
+        <!-- Product list -->
         <table class="table">
             <thead>
               <tr>
@@ -83,11 +94,14 @@
             </thead>
             <tbody ng-repeat="dt in data">
               <tr>
-                <th scope="row">{{$index+1}}</th>
+                <td scope="row">{{$index+1}}</th>
                 <td ng-bind="dt.Name"></td>
                 <td ng-bind="dt.Quantity"></td>
-                <td ng-bind="getProfitPerBoxFromName(dt.Name)"></td>
-                <td ng-bind="getProfitFromName(dt.Name, dt.Quantity) | number"></td>
+                <!-- profit per box -->
+                <td ng-if="!!matchProfit[dt.Name]" ng-bind="matchProfit[dt.Name]"></td>
+                <td ng-if="!!!matchProfit[dt.Name]" class="font-red">This menu not stored</td>
+                <!-- profit per product -->
+                <td ng-bind="getProfitFromName($index, dt.Name, dt.Quantity)" ng-class="{'font-red' : !!!matchProfit[dt.Name]}"></td>
               </tr>
             </tbody>
           </table>
@@ -98,7 +112,10 @@
         app.controller('myCtrl', function ($scope) {
             // define
             $scope.summaryProfit = 0;
-            $scope.count = 0;
+            $scope.count = {
+                "round": 0,
+                "value": 0
+            };
             $scope.employee = [
                 {
                     "name": "เจเจ",
@@ -148,6 +165,8 @@
 
             $scope.calculate = function(){
                 $scope.summaryProfit = 0;
+                $scope.count.value = 0;
+                $scope.count.round = 0;
                 $scope.data = JSON.parse($scope.data);
                 $scope.data = JSON.parse($scope.data.Data);
             }
@@ -164,24 +183,35 @@
                 var shopCostSummary = 0;
                 for(var i=0; i<$scope.shopCost.length; i++) {
                     shopCostSummary += $scope.shopCost[i].cost;
-                    
                 }
                 $scope.shopCost.shopCostSummary = shopCostSummary;
             }
 
-            $scope.getProfitFromName = function(key, quantity){
-                var profit = $scope.matchProfit[key] * quantity;
+            $scope.getProfitFromName = function(index, key, quantity){
+                if($scope.count.round == 0) {                  
+                    if(!!$scope.matchProfit[key]) {
+                        var profit = $scope.matchProfit[key] * quantity;
 
-                if($scope.count < $scope.data.length){
-                    $scope.summaryProfit = $scope.summaryProfit + profit;
-                    $scope.count++;
+                        if($scope.count.value < $scope.data.length) {
+                            $scope.summaryProfit += profit;
+                        }
+
+                        $scope.count.value++;
+                        return profit;
+
+                    } else if($scope.count.value < $scope.data.length) {
+                        $scope.count.value++;
+                        return 'This menu not stored';
+
+                    } else {
+                        $scope.count.round++;
+                        $scope.count.value = 0;
+                    }
+                } else if(!!$scope.matchProfit[key]) {
+                        return $scope.matchProfit[key] * quantity;
+                } else {
+                    return 'This menu not stored';
                 }
-                
-                return profit;
-            }
-
-            $scope.getProfitPerBoxFromName = function(productName) {
-                return $scope.matchProfit[productName];
             }
 
             $scope.matchProfit = {
@@ -189,19 +219,19 @@
                 "ข้าวผัดกุ้ง": 50,
                 "01 Re-หอยแครงลวก": 100,
                 "ยำไข่แมงดา": 90,
-                "แถมหอยนางรม": 0,
+                "แถมหอยนางรม": -280,
                 "กุ้งมังกร": 200,
                 "02 Gf-หอยหวานเผาเนย": 200,
                 "02 Gf-ยำไข่แมงดาเผา": 90,
                 "02 Gf-ปูม้าแกะ": 80,
                 "02 Gf-ปูทะเลไข่ดองไซส์ XS": 200,
                 "02 Gf-กุ้งเผาเนย": 100,
-                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก)  (แถม)": 0,
-                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก) (แถม)": 0,
-                "01 Re-ปูทะเลไข่นึ่งนมสดไซส์ M (แถม)": 0,
+                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก)  (แถม)": -119,
+                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก) (แถม)": -119,
+                "01 Re-ปูทะเลไข่นึ่งนมสดไซส์ M (แถม)": -259,
                 "01 Re-ปูทะเลไข่ไซส์ L": 150,
                 "01 Re-น้ำพริกไข่ปู": 130,
-                "01 Re-กุ้งเผาเนย (แถม)": 0,
+                "01 Re-กุ้งเผาเนย (แถม)": -249,
                 "01 Re-กุ้งเผาเนย": 150,
                 "02 Gf-หอยนางรม": 170,
                 "02 Gf-ข้าวสวย": 0,
@@ -212,43 +242,44 @@
                 "01 Re-ข้าวสวย": 0,
                 "01 Re-ค่าส่ง": 30,
                 "01 Re-กั้งกระดานเผาเนย": 90,
+                // "01 Re-กั้งกระดานเผาเนย": 777,
                 "01 Gf-ปูทะเลไข่ดองไซส์ XS": 200,
                 "01 Re - ข้าวสวย": 0,
                 "01 Re - หอยแครงลวก": 100,
                 "01 Re-กั้งกระดานย่างเนย": 90,
                 "01 Re-กั้งดองน้ำปลา": 80,
                 "01 Re-กั้งดองน้ำปลา (คัดไข่)": 120,
-                "01 Re-กั้งดองน้ำปลา (คัดไข่) (แถม)": 0,
-                "01 Re-กั้งดองน้ำปลา (แถม)": 0,
+                "01 Re-กั้งดองน้ำปลา (คัดไข่) (แถม)": -119,
+                "01 Re-กั้งดองน้ำปลา (แถม)": -79,
                 "01 Re-กุ้งดองน้ำปลา": 60,
-                "01 Re-กุ้งดองน้ำปลา (แถม)": 0,
+                "01 Re-กุ้งดองน้ำปลา (แถม)": -99,
                 "01 Re-กุ้งเผา": 100,
-                "01 Re-ค่าส่งนอกเขตพื้นที่": 0,
+                "01 Re-ค่าส่งนอกเขตพื้นที่": 30,
                 "01 Re-ชุดคู่หูปูกุ้ง": 200,
                 "01 Re-ชุดคู่หูปูกุ้ง": 200,
                 "01 Re-แซลมอนซาซิมิ": 50,
                 "01 Re-แซลมอนดองน้ำปลา": 50,
                 "01 Re-ปูทะเลไข่ดองไซส์ L": 150,
                 "01 Re-ปูทะเลไข่ดองไซส์ M": 200,
-                "01 Re-ปูทะเลไข่ดองไซส์ M (แถม)": 0,
+                "01 Re-ปูทะเลไข่ดองไซส์ M (แถม)": -250,
                 "01 Re-ปูทะเลไข่ดองไซส์ S": 150,
                 "01 Re-ปูทะเลไข่ดองไซส์ XL": 150,
                 "01 Re-ปูทะเลไข่ดองไซส์ XS": 200,
-                "01 Re-ปูทะเลไข่ดองไซส์ XS (แถม)": 0,
+                "01 Re-ปูทะเลไข่ดองไซส์ XS (แถม)": -250,
                 "01 Re-ปูทะเลไข่นึ่งนมสดไซส์ L": 250,
                 "01 Re-ปูทะเลไข่นึ่งนมสดไซส์ M": 300,
                 "01 Re-ปูทะเลไข่นึ่งนมสดไซส์ S": 250,
-                "01 Re-ปูม้าแกะ (แถม)": 0,
+                "01 Re-ปูม้าแกะ (แถม)": -270,
                 "01 Re-ปูม้าไข่ดอง (ไซส์กลาง)": 100,
-                "01 Re-ปูม้าไข่ดอง (ไซส์กลาง) (แถม)": 0,
+                "01 Re-ปูม้าไข่ดอง (ไซส์กลาง) (แถม)": -139,
                 "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก)": 80,
-                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก) (แถม)": 0,
+                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก) (แถม)": -119,
                 "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก-คัดไข่แก่)": 60,
-                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก-คัดไข่แก่) (แถม)": 0,
+                "01 Re-ปูม้าไข่ดอง (ไซส์เล็ก-คัดไข่แก่) (แถม)": -179,
                 "01 Re-ปูม้าไข่ดอง (ไซส์ใหญ่)": 150,
-                "01 Re-ปูม้าไข่ดอง (ไซส์ใหญ่) (แถม)": 0,
+                "01 Re-ปูม้าไข่ดอง (ไซส์ใหญ่) (แถม)": -149,
                 "01 Re-หมึกไข่ต้มหวาน": 100,
-                "01 Re-หมึกไข่ต้มหวาน (แถม)": 0,
+                "01 Re-หมึกไข่ต้มหวาน (แถม)": -199,
                 "01 Re-หมึกไข่ทอด": 120,
                 "01 Re-หอยหวานเผา": 200,
                 "02 Gf-กั้งกระดานเผาเนย": 90,
