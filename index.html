@@ -39,12 +39,15 @@
             <div class="alert alert-success" style="font-size: 32px; margin-right: 10px;">
                 Your profit is : {{(summaryProfit-(employee.wagSummary+shopCost.shopCostSummary)) | number}} 
                 <br>
-                <label class="d-flex justify-content-center" style="font-size: 20px;">
+                <label style="font-size: 20px;">
                     All profit : {{summaryProfit|number}}
                     <br>
                     All fixed cost : {{(employee.wagSummary + shopCost.shopCostSummary)|number}} ({{employee.wagSummary|number}} + {{shopCost.shopCostSummary|number}})
                     <br>
                     Calculate from : {{summaryProfit|number}} - {{(employee.wagSummary + shopCost.shopCostSummary) | number}}
+                </label>
+                <label class="d-flex justify-content-center" style="font-size: 20px; color: goldenrod;">
+                    Update : 20/06/2020 20.52
                 </label>
             </div>
         </div>
