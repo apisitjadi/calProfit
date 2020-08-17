@@ -47,7 +47,7 @@
                     Calculate from : {{summaryProfit|number}} - {{(employee.wagSummary + shopCost.shopCostSummary) | number}}
                 </label>
                 <label class="d-flex justify-content-center" style="font-size: 20px; color: goldenrod;">
-                    Update : 26/07/2020 04:15
+                    Update : 17/08/2020 11:56
                 </label>
             </div>
         </div>
@@ -101,10 +101,11 @@
                 <td ng-bind="dt.Name"></td>
                 <td ng-bind="dt.Quantity"></td>
                 <!-- profit per box -->
-                <td ng-if="!!matchProfit[dt.Name]" ng-bind="matchProfit[dt.Name]"></td>
+                <td ng-if="!!matchProfit[dt.Name]" ng-bind="matchProfit[dt.Name]" ng-class="{'font-red' : matchProfit[dt.Name]<0}"></td>
                 <td ng-if="!!!matchProfit[dt.Name]" class="font-red">This menu not stored</td>
                 <!-- profit per product -->
-                <td ng-bind="getProfitFromName($index, dt.Name, dt.Quantity)" ng-class="{'font-red' : !!!matchProfit[dt.Name]}"></td>
+                <td ng-bind="getProfitFromName($index, dt.Name, dt.Quantity)" ng-class="{'font-red' : matchProfit[dt.Name]<0}"></td>
+                <!-- <td ng-bind="getProfitFromName($index, dt.Name, dt.Quantity)" ng-class="{'font-red' : getProfitFromName($index, dt.Name, dt.Quantity)<0}"></td> -->
               </tr>
             </tbody>
           </table>
@@ -215,6 +216,10 @@
             }
 
             $scope.matchProfit = {
+                "01 Re-ฮ่อยจ๊อปู": 100,
+                "01 Re-หอยนางรม (ชุด C)": 100,
+                "01 Re-หอยนางรม (ชุด B)": 100,
+                "01 Re-แซลมอนซาซิมิ (แถม)": -240,
                 "01 Re-เครื่องหอยนางรม(แยก)": 40,
                 "02 Gf-กุ้งแม่น้ำเผาเนย (ไซส์ใหญ่)": 80,
                 "01 Re-หอยนางรม (ชุด A)": 100,
